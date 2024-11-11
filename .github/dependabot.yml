@@ -4,3 +4,13 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+version: 2
+updates:
+  - nuget: "github-actions"
+    /code/: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "nuget"
+    directory: "/code/"
+    schedule:
+      interval: "weekly"
